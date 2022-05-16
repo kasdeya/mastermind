@@ -1,21 +1,5 @@
-=begin
-    mastermind
-   only 4 input combinations i.e : R G B Y
-    2 players
-   player 1 makes a code using colors
-   player 2 inputs colors
-   player 1 gives feed back using black and white, black means one of the colors is in the right position, white means the color is in the code but in a wrong position, empty means wrong
-    once player 2 matches the right colors in the right order, code breaker reveals the code, count up how many rows it took for the code breaker to solve it, code maker is awared that number of points,
-    if the code wasnt solved, code maker gets awared points for all the rows (max points), players switch after every round, until a player reaches a predetermined score.
-        to make the game harder or easier you are allowed to let the code maker use duplicate colors or even blank spaces.
-        odin project calls for a 12 turn mastermind, so 12 rows for the code breaker to guess.
-=end
-
 digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-# code = []
-# p code = digits.sample(4)
-# code = []
-# p code = digits.sample(4)
+
 
 def code_guess(cde)
     guess = ['','','','']
